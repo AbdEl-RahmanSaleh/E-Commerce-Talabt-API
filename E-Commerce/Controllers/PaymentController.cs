@@ -11,7 +11,7 @@ namespace E_Commerce.Controllers
 {
     public class PaymentController : BaseController
     {
-        private const string WhSecret = "whsec_f4040c3ad039e3f6d3150fe61ee78ce669271a69a483c92c19b05d143af61013";
+        private const string WhSecret = "";
         private readonly IPaymentService _paymentService;
         private readonly ILogger<PaymentController> _logger;
         private readonly IBasketService _basketService;
